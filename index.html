@@ -5,20 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery Practice</title>
-
-    <!-- if we want to use jQuery with our own code, jQuery must come first in our HTML file-->
-    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <title>My Hobby</title>
 </head>
 
 <body>
-    <script>
-        $(document).ready(function () {
-            console.log("jQuery is alive!!!");
-        });
+    <div class="grid-container">
+        <h1 class="grid-item">My Hobby: Hiking</h1>
+        <nav class="grid-item navmenu-container">
+            <p id="nav-title">Helpful Links</p>
+            <ul>
+                <li class="navmenu-item">
+                    <a href="https://hikingguy.com/how-to-hike/hiking-for-beginners-11-essential-tips/"
+                        target="_blank">Hiking For Beginners: 11 Essential Tips</a>
+                </li>
+                <li class="navmenu-item">
+                    <a href="https://www.youtube.com/watch?v=aIa9u3ZE6y0&t=2s" target="_blank">What to Bring ona Day
+                        Hike</a>
+                </li>
+                <li class="navmenu-item">
+                    <a href="https://www.alltrails.com/" target="_blank">AllTrails Mobile App</a>
+                </li>
+            </ul>
+        </nav>
 
-    </script>
+        <main class="grid-item">
+            <p class="main-content">My name is Andrew Guzman, I'm a first-generation Mexican-American living in
+                California. My favorite hobby is going for hikes. I especially enjoy hiking in nature as it's a nice way
+                to get away from the city. I appreciate this pastime because I get to spend time in nature while
+                exercising my body which is beneficial for my mental health. The mental and physical health benefits of
+                this activity are what makes it my favorite activity.</p>
+            <div class="main-content img-container">
+                <img src="./resources/images/hobby6.jpg" alt="Andrew posing in nature">
+                <img src="./resources/images/hobby4.jpg" alt="Mountains in Yosemite, CA">
+                <img src="./resources/images/hobby5.jpg" alt="Mountains in Yosemite, CA">
 
+            </div>
+            <p class="main-content"> Hiking is a very easy hobby to get started with, but there are some pieces of
+                advice you should follow
+                to ensure it's a good experience for everybody involved. First, I would pick hikes that are geared
+                towards beginners to make sure you
+                don't over-exert yourself which can be dangerous without proper preparation. Second, make sure you
+                invest in appropriate hiking gear. Hiking is a physical activity after all, so you want to be sure to
+                wear appropriate clothing to make sure you are comfortable. Third, always make sure you tell someone you
+                trust about where you will be to make sure you are safe. And finally, clean up after yourself and leave
+                no trace behind! <br>
+                An additional tip I have is to remember to pack enough water and snacks for the duration of your hike.
+                This one is almost a non-negotiable as it can be extremely dangerous if you were to get lost somewhere
+                without food and water. If you like using mobile apps, you can try out AllTrails which has thousands of
+                guides and maps at your disposal. This one is especially helpful as it allows you to filter hikes based
+                on difficulty, length, and time.</p>
+            <div class="main-content img-container">
+                <a href="https://www.pexels.com/photo/faceless-tourists-walking-up-in-forest-in-daytime-5064664/"
+                    target="_blank">
+                    <img src="./resources/images/hobby1.jpg" alt="Two people with hiking gear in nature"></a>
+                <a href="https://www.pexels.com/photo/photo-of-mountain-climber-1822458/" target="_blank">
+                    <img src="./resources/images/hobby2.jpg" alt="One person hiking up a hill"></a>
+                <a href="https://www.pexels.com/photo/people-hiking-in-a-forest-7624986/" target="_blank">
+                    <img src="./resources/images/hobby3.jpg" alt="A group of hikers in nature"></a>
+            </div>
+
+        </main>
+
+        <footer class="grid-item footer">
+            <ul class="footer-container">
+                <li class="footer-item"><a href="resources/resources.txt" target="_blank">Resources</a></li>
+                <li class="footer-item"><a href="resources/licenses.txt" target="_blank">Licenses</a></li>
+            </ul>
+            <p>
+                &copy; Created by Andrew Guzman
+            </p>
+        </footer>
+
+    </div>
+    <p id="quote"><q>To walk in nature is to witness a thousand miracles.</q> - Mary Davis </p>
+    <img src="./resources/images/nature-banner.png"
+        alt="Graphic image of nature including mountains, a waterfall, trees, and wildlife.">
 </body>
 
 </html>
